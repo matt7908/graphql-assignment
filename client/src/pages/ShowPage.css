@@ -1,0 +1,37 @@
+/* src/pages/ShowPage.css */
+.show-page-container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  .person-title {
+    text-align: center;
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 40px;
+  }
+  
+  .back-button {
+    display: block;
+    margin: 0 auto 20px;
+  }
+  
+  .back-link {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .cars-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .car-card {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    border: 1px solid #d9d9d9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
